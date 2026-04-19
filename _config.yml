@@ -1,0 +1,33 @@
+# GitHub Pages configuration for Centimental support site.
+# Uses the `cayman` built-in theme — clean, accessible, works on mobile.
+# Swap to any theme from https://pages.github.com/themes/ by changing the
+# `theme` line below.
+
+title: Centimental
+description: Support & documentation for the Centimental chromatic tuner.
+
+# Clean, light theme with good mobile rendering
+theme: jekyll-theme-cayman
+
+# Markdown processor — GFM matches what GitHub renders on the repo itself,
+# so previewing a file on github.com looks the same as the published site.
+markdown: GFM
+
+# Don't build anything unnecessary
+plugins:
+  - jekyll-relative-links
+  - jekyll-sitemap
+
+# Jekyll's default behaviour is to require explicit permalinks; relative
+# links keeps Markdown [x](file.md) working naturally, mapping .md → .html.
+relative_links:
+  enabled: true
+  collections: true
+
+# Stop Jekyll from trying to process these folders as content
+exclude:
+  - README.md  # we generate index.html from it by default
+  - .git
+  - Gemfile
+  - Gemfile.lock
+  - vendor
