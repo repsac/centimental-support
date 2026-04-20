@@ -30,7 +30,7 @@ If the default active-string highlighting is too subtle on your chosen theme, pi
 
 ## Gestures
 
-- **Tap / swipe the tuner**: cycles through themes when **Settings → Theme Switching** is on. Pick between tap-to-advance, swipe, or favourites-only. Off by default so you don't change themes accidentally mid-song.
+- **Tap / swipe the tuner**: cycles through themes when **Settings → Theme Switching** is on. Pick between tap-to-advance, swipe, or favorites-only. Off by default so you don't change themes accidentally mid-song.
 - **Settings tab**: every preference lives here. Each picker has a one-line hint on the main screen and a verbose explanation per option in its sub-view.
 
 ## Themes
@@ -38,7 +38,7 @@ If the default active-string highlighting is too subtle on your chosen theme, pi
 Open the **Themes** tab to browse. Tap a theme thumbnail to apply it. Six themes are free; Pro unlocks the full library of 40+.
 
 - **Per-theme light/dark override**: long-press a thumbnail to change appearance for that theme only. The global **Settings → Default Color** applies to everything else.
-- **Favourites**: tap the heart on a thumbnail to favourite it. **Settings → Theme Switching → "Tap to advance favorites"** then cycles only between your favourites on the tuner screen.
+- **Favorites**: tap the heart on a thumbnail to favorite it. **Settings → Theme Switching → "Tap to advance favorites"** then cycles only between your favorites on the tuner screen.
 - **Column count**: use the column icon in the Themes tab toolbar to switch between 1, 2, 3, or 4 columns. 1 column is an accessibility option on iPhone for users who prefer larger thumbnails.
 
 See the **[Theme Gallery](themes/)** for screenshots of every theme.
@@ -82,7 +82,7 @@ Organized by category on the Settings tab:
 
 - **Playing**
   - Capo
-  - String Indicators (lock behaviour, selection indicator ring/glow)
+  - String Indicators (lock behavior, selection indicator ring/glow)
   - Lock Feedback (animation + haptic style)
 
 - **Signal**

@@ -71,7 +71,7 @@ If a crash happens before the UI appears, iOS's persistent store may have been c
 
 ## How do I reset everything?
 
-Delete the app and reinstall. All local preferences, favourites, and custom tunings are wiped. If you're Pro with iCloud sync enabled, iCloud values will still be there and resync on first launch — so to truly start fresh, turn off iCloud sync briefly, delete the app, then reinstall.
+Delete the app and reinstall. All local preferences, favorites, and custom tunings are wiped. If you're Pro with iCloud sync enabled, iCloud values will still be there and resync on first launch — so to truly start fresh, turn off iCloud sync briefly, delete the app, then reinstall.
 
 ## Feature requests and bugs
 

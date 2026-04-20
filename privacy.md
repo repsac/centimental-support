@@ -19,7 +19,7 @@ Centimental uses Apple's SwiftData framework to persist your preferences locally
 - Active instrument, tuning preset, and visual theme
 - Your custom tunings (if you've created any with Centimental Pro)
 - Your favorite themes and tunings
-- Preference choices (reference pitch, lock behaviour, haptic style, selection indicator, theme appearance mode, etc.)
+- Preference choices (reference pitch, lock behavior, haptic style, selection indicator, theme appearance mode, etc.)
 
 All of this data stays on your device. The app cannot read it, modify it, or share it over the network.
 
