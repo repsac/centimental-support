@@ -1,6 +1,6 @@
 # Theme Gallery
 
-Centimental ships with 42 hand-designed visual themes. Each one renders the same precise pitch-detection data in a different visual language — pick whichever matches your mood.
+Centimental ships with 42 hand-designed visual themes. Each one renders the same precise pitch-detection data in a different visual language. Pick whichever matches your mood.
 
 Every theme is shown at three tuning states: **−35¢** (flat), **0¢** (in tune), and **+35¢** (sharp). Screenshots are rendered dark-mode at half of iPhone 16 Pro Max native resolution (660×1434). Full-resolution originals live in [`raw-captures/`](raw-captures/).
 
@@ -17,7 +17,7 @@ Watch column = theme is also available in the free Apple Watch app.
 | Neon Arc            | ![](screenshots/neon-arc_flat.png)            | ![](screenshots/neon-arc_intune.png)            | ![](screenshots/neon-arc_sharp.png)            |   |
 | Sun On Arc          | ![](screenshots/sun-on-arc_flat.png)          | ![](screenshots/sun-on-arc_intune.png)          | ![](screenshots/sun-on-arc_sharp.png)          | ✓ |
 
-## Pro themes — Analog-inspired
+## Pro themes: Analog-inspired
 
 | Theme | Flat | In tune | Sharp | Watch |
 |-------|:---:|:---:|:---:|:---:|
@@ -29,7 +29,7 @@ Watch column = theme is also available in the free Apple Watch app.
 | Strobe              | ![](screenshots/strobe-tuner_flat.png)        | ![](screenshots/strobe-tuner_intune.png)        | ![](screenshots/strobe-tuner_sharp.png)        |   |
 | Traffic Light       | ![](screenshots/traffic-light_flat.png)       | ![](screenshots/traffic-light_intune.png)       | ![](screenshots/traffic-light_sharp.png)       | ✓ |
 
-## Pro themes — Modern / digital
+## Pro themes: Modern / digital
 
 | Theme | Flat | In tune | Sharp | Watch |
 |-------|:---:|:---:|:---:|:---:|
@@ -49,7 +49,7 @@ Watch column = theme is also available in the free Apple Watch app.
 | Split Bar           | ![](screenshots/split-bar_flat.png)           | ![](screenshots/split-bar_intune.png)           | ![](screenshots/split-bar_sharp.png)           | ✓ |
 | System Monitor      | ![](screenshots/system-monitor_flat.png)      | ![](screenshots/system-monitor_intune.png)      | ![](screenshots/system-monitor_sharp.png)      |   |
 
-## Pro themes — Atmospheric / playful
+## Pro themes: Atmospheric / playful
 
 | Theme | Flat | In tune | Sharp | Watch |
 |-------|:---:|:---:|:---:|:---:|
@@ -70,6 +70,6 @@ Watch column = theme is also available in the free Apple Watch app.
 
 ---
 
-**Animation-heavy themes** — Spinning Platters, Foucault Pendulum, Strobe, Warp Speed, and the Mirror Tunnel — will look more dynamic in actual use than these still frames can show. Play any of them on device to see what they're really doing.
+**Animation-heavy themes** (Spinning Platters, Foucault Pendulum, Strobe, Warp Speed, and the Mirror Tunnel) will look more dynamic in actual use than these still frames can show. Play any of them on device to see what they're really doing.
 
-**Layout differs by orientation.** These shots are iPhone portrait. Many themes pivot to a two-column layout on iPad landscape or iPhone landscape — the tuner on one side, string indicators on the other.
+**Layout differs by orientation.** These shots are iPhone portrait. Many themes pivot to a two-column layout on iPad landscape or iPhone landscape, with the tuner on one side, string indicators on the other.
