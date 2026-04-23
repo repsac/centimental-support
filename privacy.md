@@ -10,7 +10,7 @@
 
 Centimental requires microphone access to detect pitch in real time. Audio from the microphone is processed entirely on your device, frame by frame, to estimate the pitch you're playing. **Audio is never recorded, saved, or sent anywhere.** The moment a frame has been analyzed, it is discarded.
 
-If you deny microphone access, the app cannot function — pitch detection is the entire purpose of a tuner.
+If you deny microphone access, the app cannot function. Pitch detection is the entire purpose of a tuner.
 
 ## Data stored on your device
 
@@ -27,7 +27,7 @@ All of this data stays on your device. The app cannot read it, modify it, or sha
 
 If you have purchased Centimental Pro and are signed in to iCloud, the preferences above are synchronized across your Apple devices using Apple's `NSUbiquitousKeyValueStore` (iCloud Key–Value Storage).
 
-- Sync is end-to-end managed by Apple — Centimental does not operate any server.
+- Sync is end-to-end managed by Apple. Centimental does not operate any server.
 - The data stored in iCloud KVS is limited to your app preferences and custom tunings. No audio, no usage data, no identifiers.
 - You can disable iCloud sync at any time by signing out of iCloud in iOS Settings, or by removing iCloud Drive access for Centimental.
 - Apple's privacy policy governs iCloud: <https://www.apple.com/legal/privacy/>
@@ -38,7 +38,7 @@ The one-time Centimental Pro in-app purchase is processed entirely by Apple's Ap
 
 ## WatchConnectivity
 
-If you install Centimental on Apple Watch, your iPhone and Watch exchange preferences (active theme, active tuning, custom tuning library, reference pitch, Pro status) using Apple's WatchConnectivity framework. This data travels only between your iPhone and your paired Watch — no server is involved.
+If you install Centimental on Apple Watch, your iPhone and Watch exchange preferences (active theme, active tuning, custom tuning library, reference pitch, Pro status) using Apple's WatchConnectivity framework. This data travels only between your iPhone and your paired Watch, with no server involved.
 
 ## Crash reports and diagnostics
 

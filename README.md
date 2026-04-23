@@ -4,10 +4,10 @@
 
 ## Documentation
 
-- **[User Guide](user-guide.md)** — full feature walkthrough: getting started, gestures, string indicators, themes, Apple Watch, Pro features, and more.
-- **[Troubleshooting](troubleshooting.md)** — common questions and fixes.
-- **[Theme Gallery](themes/)** — screenshots of every visual theme at different tuning states.
-- **[Changelog](changelog.md)** — what's new in each release.
+- **[User Guide](user-guide.md)**: full feature walkthrough covering getting started, gestures, string indicators, themes, Apple Watch, Pro features, and more.
+- **[Troubleshooting](troubleshooting.md)**: common questions and fixes.
+- **[Theme Gallery](themes/)**: screenshots of every visual theme at different tuning states.
+- **[Changelog](changelog.md)**: what's new in each release.
 
 ## Support
 
@@ -18,7 +18,7 @@ Found a bug, have a question, or want to suggest a feature?
 
 ## Legal
 
-- **[Privacy Policy](privacy.md)** — no data collection, no tracking, audio processed on-device.
+- **[Privacy Policy](privacy.md)**: no data collection, no tracking, audio processed on-device.
 
 ## About
 
