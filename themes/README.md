@@ -23,7 +23,7 @@ Watch column = theme is also available in the free Apple Watch app.
 |-------|:---:|:---:|:---:|:---:|
 | Foucault Pendulum   | ![](screenshots/foucault-pendulum_flat.png)   | ![](screenshots/foucault-pendulum_intune.png)   | ![](screenshots/foucault-pendulum_sharp.png)   |   |
 | Grandfather Clock   | ![](screenshots/grandfather-clock_flat.png)   | ![](screenshots/grandfather-clock_intune.png)   | ![](screenshots/grandfather-clock_sharp.png)   | ✓ |
-| Large Needle        | ![](screenshots/large-needle_flat.png)        | ![](screenshots/large-needle_intune.png)        | ![](screenshots/large-needle_sharp.png)        | ✓ |
+| Large Needle        | ![](screenshots/large-needle_flat.png)        | ![](screenshots/large-needle_intune.png)        | ![](screenshots/large-needle_sharp.png)        |   |
 | Metronome Arm       | ![](screenshots/metronome-arm_flat.png)       | ![](screenshots/metronome-arm_intune.png)       | ![](screenshots/metronome-arm_sharp.png)       | ✓ |
 | Spinning Platters   | ![](screenshots/spinning-platters_flat.png)   | ![](screenshots/spinning-platters_intune.png)   | ![](screenshots/spinning-platters_sharp.png)   |   |
 | Strobe              | ![](screenshots/strobe-tuner_flat.png)        | ![](screenshots/strobe-tuner_intune.png)        | ![](screenshots/strobe-tuner_sharp.png)        |   |
