@@ -60,7 +60,6 @@ Centimental Pro is a **one-time purchase**, no subscription. It unlocks:
 - Every alternate tuning (Drop D, DADGAD, Open G, Open D, Open E, Open A, Double Drop D, half-step down, whole-step down, Nashville, baritone, and more)
 - The custom tuning builder, with unlimited tunings per instrument
 - Capo support (shifts all string targets up by your chosen fret)
-- iCloud sync of preferences and custom tunings across your devices
 
 Restore a previous purchase from **Settings → Upgrade → Restore Purchase**. Purchases are tied to your Apple ID.
 
@@ -100,6 +99,9 @@ Organized by category on the Settings tab:
 
 - **Hardware**
   - Audio Input (active input, microphone selection on multi-mic phones)
+
+- **Sync**
+  - iCloud Sync (off by default; share preferences, favorites, and custom tunings across devices signed in to the same iCloud account)
 
 - **Upgrade** (pre-Pro only)
   - Upgrade button

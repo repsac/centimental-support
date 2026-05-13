@@ -39,7 +39,7 @@ Centimental handles USB-C audio route changes automatically, but some interfaces
 
 ## iCloud sync isn't working across devices
 
-- iCloud sync requires **Centimental Pro**. Without Pro, the sync service is gated off.
+- iCloud sync is **off by default**. Turn it on under **Settings → Sync** on every device you want to share preferences across.
 - Confirm both devices are signed in to the same iCloud account.
 - Confirm iCloud Drive is enabled: **iOS Settings → your Apple ID (top of Settings) → iCloud → iCloud Drive**.
 - KVS sync propagation can take a few seconds on Wi-Fi, up to a minute on cellular. It's not instant.
@@ -67,11 +67,11 @@ The Watch syncs your custom tuning library from the iPhone via WatchConnectivity
 If a crash happens before the UI appears, iOS's persistent store may have been corrupted (power loss during a write, interrupted update). Centimental automatically recovers with an in-memory fallback, but preferences won't persist until the store heals.
 
 - Force-quit the app and relaunch. SwiftData's recovery path creates a fresh persistent store.
-- If the problem persists, uninstall and reinstall. If you have Pro and iCloud sync, your custom tunings will re-sync on first launch.
+- If the problem persists, uninstall and reinstall. If iCloud sync was enabled before, your custom tunings will re-sync on first launch (re-enable the toggle if needed).
 
 ## How do I reset everything?
 
-Delete the app and reinstall. All local preferences, favorites, and custom tunings are wiped. If you're Pro with iCloud sync enabled, iCloud values will still be there and resync on first launch. To truly start fresh, turn off iCloud sync briefly, delete the app, then reinstall.
+Delete the app and reinstall. All local preferences, favorites, and custom tunings are wiped. If iCloud sync is enabled, iCloud values will still be there and resync on first launch. To truly start fresh, turn off iCloud sync from **Settings → Sync** first, then delete and reinstall.
 
 ## Feature requests and bugs
 
