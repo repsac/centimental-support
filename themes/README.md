@@ -15,7 +15,7 @@ Watch column = theme is also available in the free Apple Watch app.
 | Color Gradient      | ![](screenshots/color-gradient_flat.png)      | ![](screenshots/color-gradient_intune.png)      | ![](screenshots/color-gradient_sharp.png)      | ✓ |
 | Minimal             | ![](screenshots/minimal_flat.png)             | ![](screenshots/minimal_intune.png)             | ![](screenshots/minimal_sharp.png)             | ✓ |
 | Neon Arc            | ![](screenshots/neon-arc_flat.png)            | ![](screenshots/neon-arc_intune.png)            | ![](screenshots/neon-arc_sharp.png)            |   |
-| Sun On Arc          | ![](screenshots/sun-on-arc_flat.png)          | ![](screenshots/sun-on-arc_intune.png)          | ![](screenshots/sun-on-arc_sharp.png)          | ✓ |
+| Sun On Arc          | ![](screenshots/sun-on-arc_flat.png)          | ![](screenshots/sun-on-arc_intune.png)          | ![](screenshots/sun-on-arc_sharp.png)          |   |
 
 ## Pro themes: Analog-inspired
 
@@ -35,7 +35,7 @@ Watch column = theme is also available in the free Apple Watch app.
 |-------|:---:|:---:|:---:|:---:|
 | Audio Stem          | ![](screenshots/audio-stem_flat.png)          | ![](screenshots/audio-stem_intune.png)          | ![](screenshots/audio-stem_sharp.png)          |   |
 | Cent Bars           | ![](screenshots/cent-bars_flat.png)           | ![](screenshots/cent-bars_intune.png)           | ![](screenshots/cent-bars_sharp.png)           | ✓ |
-| Classic Radar       | ![](screenshots/classic-radar_flat.png)       | ![](screenshots/classic-radar_intune.png)       | ![](screenshots/classic-radar_sharp.png)       | ✓ |
+| Classic Radar       | ![](screenshots/classic-radar_flat.png)       | ![](screenshots/classic-radar_intune.png)       | ![](screenshots/classic-radar_sharp.png)       |   |
 | Converging Columns  | ![](screenshots/converging-columns_flat.png)  | ![](screenshots/converging-columns_intune.png)  | ![](screenshots/converging-columns_sharp.png)  |   |
 | EQ Spread           | ![](screenshots/eq-spread_flat.png)           | ![](screenshots/eq-spread_intune.png)           | ![](screenshots/eq-spread_sharp.png)           | ✓ |
 | Horizon Split       | ![](screenshots/horizon-split_flat.png)       | ![](screenshots/horizon-split_intune.png)       | ![](screenshots/horizon-split_sharp.png)       |   |
@@ -61,10 +61,10 @@ Watch column = theme is also available in the free Apple Watch app.
 | Hack the Planet     | ![](screenshots/hack-the-planet_flat.png)     | ![](screenshots/hack-the-planet_intune.png)     | ![](screenshots/hack-the-planet_sharp.png)     |   |
 | Mirror Tunnel       | ![](screenshots/mirror-tunnel_flat.png)       | ![](screenshots/mirror-tunnel_intune.png)       | ![](screenshots/mirror-tunnel_sharp.png)       |   |
 | Particle Scatter    | ![](screenshots/particle-scatter_flat.png)    | ![](screenshots/particle-scatter_intune.png)    | ![](screenshots/particle-scatter_sharp.png)    | ✓ |
-| Pulse Rings         | ![](screenshots/pulse-rings_flat.png)         | ![](screenshots/pulse-rings_intune.png)         | ![](screenshots/pulse-rings_sharp.png)         | ✓ |
+| Pulse Rings         | ![](screenshots/pulse-rings_flat.png)         | ![](screenshots/pulse-rings_intune.png)         | ![](screenshots/pulse-rings_sharp.png)         |   |
 | Pure Flame          | ![](screenshots/pure-flame_flat.png)          | ![](screenshots/pure-flame_intune.png)          | ![](screenshots/pure-flame_sharp.png)          | ✓ |
 | Shooting Stars      | ![](screenshots/shooting-stars_flat.png)      | ![](screenshots/shooting-stars_intune.png)      | ![](screenshots/shooting-stars_sharp.png)      |   |
-| Sonar Ping          | ![](screenshots/sonar-ping_flat.png)          | ![](screenshots/sonar-ping_intune.png)          | ![](screenshots/sonar-ping_sharp.png)          | ✓ |
+| Sonar Ping          | ![](screenshots/sonar-ping_flat.png)          | ![](screenshots/sonar-ping_intune.png)          | ![](screenshots/sonar-ping_sharp.png)          |   |
 | Warp Speed          | ![](screenshots/warp-speed_flat.png)          | ![](screenshots/warp-speed_intune.png)          | ![](screenshots/warp-speed_sharp.png)          | ✓ |
 | Water Drop          | ![](screenshots/water-drop_flat.png)          | ![](screenshots/water-drop_intune.png)          | ![](screenshots/water-drop_sharp.png)          | ✓ |
 
