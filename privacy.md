@@ -23,13 +23,15 @@ Centimental uses Apple's SwiftData framework to persist your preferences locally
 
 All of this data stays on your device. The app cannot read it, modify it, or share it over the network.
 
-## iCloud sync (Centimental Pro only)
+## iCloud sync (opt-in)
 
-If you have purchased Centimental Pro and are signed in to iCloud, the preferences above are synchronized across your Apple devices using Apple's `NSUbiquitousKeyValueStore` (iCloud Key–Value Storage).
+iCloud sync is **off by default**. Turn it on in **Settings → Sync** if you want to share your preferences across devices. Available to every user, no purchase required.
+
+When enabled and you're signed in to iCloud, the preferences above are synchronized across your Apple devices using Apple's `NSUbiquitousKeyValueStore` (iCloud Key–Value Storage).
 
 - Sync is end-to-end managed by Apple. Centimental does not operate any server.
 - The data stored in iCloud KVS is limited to your app preferences and custom tunings. No audio, no usage data, no identifiers.
-- You can disable iCloud sync at any time by signing out of iCloud in iOS Settings, or by removing iCloud Drive access for Centimental.
+- You can disable iCloud sync at any time from **Settings → Sync**, by signing out of iCloud in iOS Settings, or by removing iCloud Drive access for Centimental. Disabling stops further sync; data already in iCloud is preserved until you sign out of iCloud or delete the app.
 - Apple's privacy policy governs iCloud: <https://www.apple.com/legal/privacy/>
 
 ## App Store purchase
