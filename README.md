@@ -19,6 +19,7 @@ Found a bug, have a question, or want to suggest a feature?
 ## Legal
 
 - **[Privacy Policy](privacy.md)**: no data collection, no tracking, audio processed on-device.
+- **Terms of use**: Centimental is licensed under Apple's [Standard End User License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/), which applies to every app downloaded from the App Store unless the developer provides custom terms.
 
 ## About
 
