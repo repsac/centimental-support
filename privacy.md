@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated:** April 19, 2026
+**Last updated:** May 13, 2026
 
 ## What Centimental does with your data
 
