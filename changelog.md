@@ -2,6 +2,35 @@
 
 Release notes for every published version of Centimental.
 
+## 1.1 (May 2026)
+
+A polish release shaped by real-device feedback from v1.0. Headline changes are iCloud sync going free + opt-in, a tighter Apple Watch theme set, and a layout pass across the gradient-bar tuner family.
+
+**Changed**
+
+- **iCloud sync is now free for everyone, off by default.** Turn it on under **Settings → Sync** to share your preferences, favorites, and custom tunings across your iPhone, iPad, and any other device signed in to the same iCloud account. Previously a Pro feature that auto-enabled on purchase.
+
+**Improved**
+
+- **Color Gradient, Spectrum Spotlight, and Traffic Light** now share a unified layout across iPhone, iPad, and both orientations. Status text moved below the tuner in portrait and is evenly spaced with the string circles. Tick labels added to Traffic Light to match the family.
+- **Pure Flame**: the flame now sits flush with the bottom of the screen on every device and orientation.
+- **Neon Crosshairs (iPhone portrait)**: bullseye is now properly vertically centered.
+- **Shooting Stars (iPhone & iPad portrait)**: target crosshair is now vertically centered in the visible drawing area.
+- **Color Gradient orb** gets a richer pulse: tuning pulses scale with how close to in-tune you are, with a stronger continuous pulse when locked.
+- Across-the-board copy pass for readability on Settings, the User Guide, and the support site.
+
+**Apple Watch**
+
+- Removed five themes from the Watch picker — **Classic Radar, Pulse Rings, Sonar Ping, Sun On Arc, and Large Needle** — to focus on themes that render cleanly and consistently on the small display. All five remain available on iPhone and iPad.
+- Tuner now holds the last detected note and cents reading on screen briefly between plucks instead of blanking, which makes it easier to glance at while still playing.
+- Microphone sensitivity recalibrated for the wrist-near-instrument use case.
+- DEBUG-only Pro toggle in the theme picker now persists across Watch app restarts (testing convenience only; production builds still trust the iPhone for entitlement).
+
+**Fixed**
+
+- Watch tuner session-floor regression that affected pitch tracking after the screen dimmed and resumed.
+- Various small theme positioning glitches on iPhone Pro models with the Dynamic Island.
+
 ## 1.0 (April 2026)
 
 Initial public release.
