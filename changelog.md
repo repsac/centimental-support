@@ -12,8 +12,6 @@ improvements.
 - **Reference tone.** Tap the speaker on the tuner screen to open a pitch
   picker, choose any note and octave, and play the tone to tune by ear. It
   follows your reference pitch. Free for everyone.
-- **Live theme preview.** Long-press any theme to watch it animate in full
-  before you switch, including Pro themes.
 
 **Fixed**
 
