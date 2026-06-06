@@ -4,31 +4,39 @@ Release notes for every published version of Centimental.
 
 ## 1.1 (May 2026)
 
-A polish release shaped by real-device feedback from v1.0. Headline changes are iCloud sync going free + opt-in, a tighter Apple Watch theme set, and a layout pass across the gradient-bar tuner family.
+A polish release shaped by real-device feedback from v1.0. The headline changes are iCloud sync going free and opt-in, a tighter Apple Watch theme set, a layout pass across the gradient-bar tuner family, and a round of back-end work to make tuning and Watch rendering more reliable.
 
 **Changed**
 
-- **iCloud sync is now free for everyone, off by default.** Turn it on under **Settings → Sync** to share your preferences, favorites, and custom tunings across your iPhone, iPad, and any other device signed in to the same iCloud account. Previously a Pro feature that auto-enabled on purchase.
+- **iCloud sync is now free for everyone, off by default.** Turn it on under Settings → Sync to share your preferences, favorites, and custom tunings across your iPhone, iPad, and any other device signed in to the same iCloud account. It was previously a Pro feature that turned on automatically with purchase.
 
 **Improved**
 
-- **Color Gradient, Spectrum Spotlight, and Traffic Light** now share a unified layout across iPhone, iPad, and both orientations. Status text moved below the tuner in portrait and is evenly spaced with the string circles. Tick labels added to Traffic Light to match the family.
+- **Color Gradient, Spectrum Spotlight, and Traffic Light** now share a unified layout across iPhone, iPad, and both orientations. Status text moved below the tuner in portrait and is evenly spaced with the string circles. Tick labels were added to Traffic Light to match the family.
 - **Pure Flame**: the flame now sits flush with the bottom of the screen on every device and orientation.
-- **Neon Crosshairs (iPhone portrait)**: bullseye is now properly vertically centered.
-- **Shooting Stars (iPhone & iPad portrait)**: target crosshair is now vertically centered in the visible drawing area.
+- **Neon Crosshairs (iPhone portrait)**: the bullseye is now properly vertically centered.
+- **Shooting Stars (iPhone and iPad portrait)**: the target is now vertically centered in the visible drawing area.
+- **Split Bar (iPhone and iPad portrait)**: the center line is now vertically centered, with the note and status spacing evened out above and below the bar.
 - **Color Gradient orb** gets a richer pulse: tuning pulses scale with how close to in-tune you are, with a stronger continuous pulse when locked.
-- Across-the-board copy pass for readability on Settings, the User Guide, and the support site.
+- An across-the-board copy pass for readability on Settings, the User Guide, and the support site.
 
 **Apple Watch**
 
-- Removed five themes from the Watch picker — **Classic Radar, Pulse Rings, Sonar Ping, Sun On Arc, and Large Needle** — to focus on themes that render cleanly and consistently on the small display. All five remain available on iPhone and iPad.
-- Tuner now holds the last detected note and cents reading on screen briefly between plucks instead of blanking, which makes it easier to glance at while still playing.
+- Removed five themes from the Watch picker (Classic Radar, Pulse Rings, Sonar Ping, Sun On Arc, and Large Needle) to focus on themes that render cleanly and consistently on the small display. All five remain available on iPhone and iPad.
+- The tuner now holds the last detected note and cents reading on screen briefly between plucks instead of blanking, which makes it easier to glance at while still playing.
 - Microphone sensitivity recalibrated for the wrist-near-instrument use case.
-- DEBUG-only Pro toggle in the theme picker now persists across Watch app restarts (testing convenience only; production builds still trust the iPhone for entitlement).
+- Reworked how Watch themes render (drawing each frame through Metal) to reduce an occasional rendering glitch some themes showed on the small display.
+
+**Under the hood**
+
+- More consistent pitch-detection calibration across iPhone, iPad, and Apple Watch, kept in one place so the three stay in sync.
+- The Noise Gate setting now takes effect immediately while the tuner is running, instead of only after a restart.
+- The app now classifies a connected audio interface correctly at launch, rather than briefly treating it as the built-in microphone.
+- Added internal diagnostics to make Watch tuning issues easier to track down.
 
 **Fixed**
 
-- Watch tuner session-floor regression that affected pitch tracking after the screen dimmed and resumed.
+- A Watch tuner regression that affected pitch tracking after the screen dimmed and resumed.
 - Various small theme positioning glitches on iPhone Pro models with the Dynamic Island.
 
 ## 1.0 (April 2026)
