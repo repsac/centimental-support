@@ -9,9 +9,9 @@ improvements.
 
 **New**
 
-- **Reference tone.** Tap the speaker on the tuner screen to open a pitch
-  picker, choose any note and octave, and play the tone to tune by ear. It
-  follows your reference pitch. Free for everyone.
+- **Reference tone.** Open Settings → Reference Tone to pick a note and
+  octave and play it to tune by ear. It follows your reference pitch. Free for
+  everyone.
 
 **Fixed**
 
