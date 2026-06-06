@@ -2,9 +2,13 @@
 
 Release notes for every published version of Centimental.
 
-## 1.1 (May 2026)
+## 1.2 (May 2026)
 
-A polish release shaped by real-device feedback from v1.0. The headline changes are iCloud sync going free and opt-in, a tighter Apple Watch theme set, a layout pass across the gradient-bar tuner family, and a round of back-end work to make tuning and Watch rendering more reliable.
+A feature-and-polish release shaped by real-device feedback from v1.0. The headline additions are eight new instruments and iCloud sync going free and opt-in, alongside a tighter Apple Watch theme set, a layout pass across the gradient-bar tuner family, and back-end work to make tuning and Watch rendering more reliable.
+
+**New**
+
+- **Eight new instruments**, each with built-in tunings: Baritone Guitar, Banjo (5-string), Banjo (4-string), Mandolin, Violin, Viola, Cello, and Double Bass. These are part of Centimental Pro, joining the existing 7-, 8-, and 12-string guitars and 5- and 6-string basses.
 
 **Changed**
 
