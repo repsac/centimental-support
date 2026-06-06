@@ -2,10 +2,18 @@
 
 Release notes for every published version of Centimental.
 
-## 1.1.1 (pending)
+## 1.2 (pending)
 
-A maintenance release focused on Apple Watch rendering reliability and
-back-end tuning improvements, with one layout fix on iPhone and iPad.
+Two new tuning aids plus an Apple Watch reliability fix and back-end
+improvements.
+
+**New**
+
+- **Reference tone.** Tap the speaker on the tuner screen to hear your target
+  pitch for two seconds and tune by ear. It follows your reference pitch and
+  capo. Free for everyone.
+- **Live theme preview.** Long-press any theme to watch it animate in full
+  before you switch, including Pro themes.
 
 **Fixed**
 
