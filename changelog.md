@@ -2,17 +2,24 @@
 
 Release notes for every published version of Centimental.
 
-## 1.2 (pending)
+## 1.2.1 (pending)
 
-A reliability and polish release: a sharper fix for an Apple Watch rendering
-glitch, a roomier iPad layout, a friendlier first run, and a clearer way to
-see what Pro includes.
+A fast follow to 1.2: a more thorough fix for the Apple Watch rendering
+glitch, plus a round of bug fixes and a few interface refinements.
 
-**New**
+**Fixed**
 
-- **Reference tone.** Open Settings → Reference Tone to pick a note and
-  octave and play it to tune by ear. It follows your reference pitch. Free for
-  everyone.
+- **Apple Watch rendering glitch:** a more complete fix for the issue 1.2
+  addressed — part of a Watch theme could still occasionally flash a solid
+  colored square over the animation. Watch themes now animate at a steadier
+  rate and pause cleanly when your wrist is down.
+- **Converging Columns (iPhone portrait):** the note readout is now correctly
+  centered above the bars instead of sitting too high.
+- **Tapping instrument and tuning rows:** the whole row is now tappable, not
+  just the text label — easier to hit, especially on iPad.
+- **Lapsed Pro:** if a Pro purchase is refunded or removed through Family
+  Sharing, the app now returns you to a free theme, instrument, and tuning
+  instead of leaving Pro content selected.
 
 **Improved**
 
@@ -29,22 +36,35 @@ see what Pro includes.
   default, and tapping a string circle selects it as your target right away —
   even before you play a note.
 
+**Under the hood**
+
+- Reference pitch is now kept within a sensible range, even if a stray value
+  arrives from iCloud sync.
+- In the rare case its settings store can't load, the app now shows an
+  explanatory screen instead of failing to open.
+- The built-in microphone now shows a friendlier name in Settings.
+- Service errors (purchases, Watch connectivity, audio) now route through the
+  system log to make field issues easier to diagnose.
+
+## 1.2 (June 2026)
+
+Two new tuning aids plus an Apple Watch reliability fix and back-end
+improvements.
+
+**New**
+
+- **Reference tone.** Open Settings → Reference Tone to pick a note and
+  octave and play it to tune by ear. It follows your reference pitch. Free for
+  everyone.
+
 **Fixed**
 
-- **Apple Watch rendering reliability:** addressed an occasional glitch where
-  part of a Watch theme could flash a solid colored square over the animation.
-  Watch themes now animate at a steadier rate and pause cleanly when your
-  wrist is down.
-- **Converging Columns (iPhone portrait):** the note readout is now correctly
-  centered above the bars instead of sitting too high.
+- **Apple Watch rendering reliability:** reworked how Watch themes draw (each
+  frame now goes through Metal) to address an occasional rendering glitch
+  where parts of a theme could flash a solid color on the small display.
 - **Split Bar (iPhone and iPad portrait):** the center line is now vertically
   centered, with the note above and the status and string circles evenly
   spaced below the bar.
-- **Tapping instrument and tuning rows:** the whole row is now tappable, not
-  just the text label — easier to hit, especially on iPad.
-- **Lapsed Pro:** if a Pro purchase is refunded or removed through Family
-  Sharing, the app now returns you to a free theme, instrument, and tuning
-  instead of leaving Pro content selected.
 
 **Under the hood**
 
@@ -52,14 +72,9 @@ see what Pro includes.
   Watch, kept in one place so the three stay in sync.
 - The Noise Gate setting now takes effect immediately while the tuner is
   running, instead of only after a restart.
-- The app now classifies a connected audio interface correctly at launch, and
-  shows a friendlier name for the built-in microphone in Settings.
-- Reference pitch is now kept within a sensible range, even if a stray value
-  arrives from iCloud sync.
-- In the rare case its settings store can't load, the app now shows an
-  explanatory screen instead of failing to open.
-- Added internal diagnostics, routed through the system log, to make Watch and
-  purchase issues easier to track down.
+- The app now classifies a connected audio interface correctly at launch,
+  rather than briefly treating it as the built-in microphone.
+- Added internal diagnostics to make Watch tuning issues easier to track down.
 - Documentation corrections (accurate theme count, an iCloud Sync section in
   the in-app User Guide).
 
