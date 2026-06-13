@@ -4,8 +4,9 @@ Release notes for every published version of Centimental.
 
 ## 1.2 (pending)
 
-Two new tuning aids plus an Apple Watch reliability fix and back-end
-improvements.
+A reliability and polish release: a sharper fix for an Apple Watch rendering
+glitch, a roomier iPad layout, a friendlier first run, and a clearer way to
+see what Pro includes.
 
 **New**
 
@@ -13,14 +14,37 @@ improvements.
   octave and play it to tune by ear. It follows your reference pitch. Free for
   everyone.
 
+**Improved**
+
+- **iPad layout.** The Themes grid now shows more themes at a glance by
+  default, and the Strings and Settings screens keep their content at a
+  comfortable reading width instead of stretching edge to edge. You can still
+  set the grid to 2–4 columns yourself.
+- **A more visual welcome.** The first-run style picker now previews each
+  theme, so you can see what you're choosing instead of picking by name.
+- **A clearer upgrade screen.** Tapping a Pro theme now opens a screen that
+  shows exactly what Centimental Pro includes and what it costs, with Restore
+  Purchase one tap away.
+- **Easier string selection.** The active-string indicator is now on by
+  default, and tapping a string circle selects it as your target right away —
+  even before you play a note.
+
 **Fixed**
 
-- **Apple Watch rendering reliability:** reworked how Watch themes draw (each
-  frame now goes through Metal) to address an occasional rendering glitch
-  where parts of a theme could flash a solid color on the small display.
+- **Apple Watch rendering reliability:** addressed an occasional glitch where
+  part of a Watch theme could flash a solid colored square over the animation.
+  Watch themes now animate at a steadier rate and pause cleanly when your
+  wrist is down.
+- **Converging Columns (iPhone portrait):** the note readout is now correctly
+  centered above the bars instead of sitting too high.
 - **Split Bar (iPhone and iPad portrait):** the center line is now vertically
   centered, with the note above and the status and string circles evenly
   spaced below the bar.
+- **Tapping instrument and tuning rows:** the whole row is now tappable, not
+  just the text label — easier to hit, especially on iPad.
+- **Lapsed Pro:** if a Pro purchase is refunded or removed through Family
+  Sharing, the app now returns you to a free theme, instrument, and tuning
+  instead of leaving Pro content selected.
 
 **Under the hood**
 
@@ -28,9 +52,14 @@ improvements.
   Watch, kept in one place so the three stay in sync.
 - The Noise Gate setting now takes effect immediately while the tuner is
   running, instead of only after a restart.
-- The app now classifies a connected audio interface correctly at launch,
-  rather than briefly treating it as the built-in microphone.
-- Added internal diagnostics to make Watch tuning issues easier to track down.
+- The app now classifies a connected audio interface correctly at launch, and
+  shows a friendlier name for the built-in microphone in Settings.
+- Reference pitch is now kept within a sensible range, even if a stray value
+  arrives from iCloud sync.
+- In the rare case its settings store can't load, the app now shows an
+  explanatory screen instead of failing to open.
+- Added internal diagnostics, routed through the system log, to make Watch and
+  purchase issues easier to track down.
 - Documentation corrections (accurate theme count, an iCloud Sync section in
   the in-app User Guide).
 
