@@ -24,9 +24,11 @@ relative_links:
   enabled: true
   collections: true
 
-# Stop Jekyll from trying to process these folders as content
+# Stop Jekyll from trying to process these folders as content.
+# NOTE: do NOT exclude README.md — GitHub Pages renders it as the site
+# home page (index.html) when no index.md/index.html exists. Excluding it
+# leaves the site with no landing page and the home URL returns 404.
 exclude:
-  - README.md  # we generate index.html from it by default
   - .git
   - Gemfile
   - Gemfile.lock
