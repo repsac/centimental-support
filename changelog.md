@@ -2,7 +2,51 @@
 
 Release notes for every published version of Centimental.
 
-## 1.2 (pending)
+## 1.2.1 (pending)
+
+A fast follow to 1.2: a more thorough fix for the Apple Watch rendering
+glitch, plus a round of bug fixes and a few interface refinements.
+
+**Fixed**
+
+- **Apple Watch rendering glitch:** a more complete fix for the issue 1.2
+  addressed — part of a Watch theme could still occasionally flash a solid
+  colored square over the animation. Watch themes now animate at a steadier
+  rate and pause cleanly when your wrist is down.
+- **Converging Columns (iPhone portrait):** the note readout is now correctly
+  centered above the bars instead of sitting too high.
+- **Tapping instrument and tuning rows:** the whole row is now tappable, not
+  just the text label — easier to hit, especially on iPad.
+- **Lapsed Pro:** if a Pro purchase is refunded or removed through Family
+  Sharing, the app now returns you to a free theme, instrument, and tuning
+  instead of leaving Pro content selected.
+
+**Improved**
+
+- **iPad layout.** The Themes grid now shows more themes at a glance by
+  default, and the Strings and Settings screens keep their content at a
+  comfortable reading width instead of stretching edge to edge. You can still
+  set the grid to 2–4 columns yourself.
+- **A more visual welcome.** The first-run style picker now previews each
+  theme, so you can see what you're choosing instead of picking by name.
+- **A clearer upgrade screen.** Tapping a Pro theme now opens a screen that
+  shows exactly what Centimental Pro includes and what it costs, with Restore
+  Purchase one tap away.
+- **Easier string selection.** The active-string indicator is now on by
+  default, and tapping a string circle selects it as your target right away —
+  even before you play a note.
+
+**Under the hood**
+
+- Reference pitch is now kept within a sensible range, even if a stray value
+  arrives from iCloud sync.
+- In the rare case its settings store can't load, the app now shows an
+  explanatory screen instead of failing to open.
+- The built-in microphone now shows a friendlier name in Settings.
+- Service errors (purchases, Watch connectivity, audio) now route through the
+  system log to make field issues easier to diagnose.
+
+## 1.2 (June 2026)
 
 Two new tuning aids plus an Apple Watch reliability fix and back-end
 improvements.
